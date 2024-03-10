@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>UQU جدول رمضان</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <h1>ادخل المواد</h1>
+  <div id="input-container">
+    <input type="text" id="course-name" placeholder="اسم المادة">
+    <select id="course-period">
+      <option value="1">الفترة 1</option>
+      <option value="2">الفترة 2</option>
+      <option value="3">الفترة 3</option>
+      <option value="4">الفترة 4</option>
+      <option value="5">الفترة 5</option>
+      <option value="6">الفترة 6</option>
+      <option value="7">الفترة 7</option>
+      <option value="8">الفترة 8</option>
+      <option value="9">الفترة 9</option>
+      <option value="10">الفترة 10</option>
+      <option value="11">الفترة 11</option>
+      <option value="12">الفترة 12</option>
+    </select>
+    <select id="course-day">
+      <option value="0">الأحد</option>
+      <option value="1">الإثنين</option>
+      <option value="2">الثلاثاء</option>
+      <option value="3">الأربعاء</option>
+      <option value="4">الخميس</option>
+    </select>
+    <button onclick="addCourse()">اضف المادة</button>
+    <button onclick="generateSchedule()">انشئ الجدول</button>
+  </div>
+  <div id="schedule-container"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
