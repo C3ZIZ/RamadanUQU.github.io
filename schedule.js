@@ -20,18 +20,18 @@
 
     var tbody = document.createElement('tbody');
     var timeSlots = [
-      { start: '09:00', end: '09:35' },
-      { start: '09:40', end: '10:15' },
-      { start: '10:20', end: '10:55' },
-      { start: '11:00', end: '11:35' },
-      { start: '11:40', end: '12:15' },
-      { start: '13:00', end: '13:35' },
-      { start: '13:40', end: '14:15' },
-      { start: '14:20', end: '14:55' },
-      { start: '15:00', end: '15:35' },
-      { start: '15:40', end: '16:15' },
-      { start: '16:20', end: '16:55' },
-      { start: '17:00', end: '17:35' }
+      { start: '09:00', end: '09:35' }, // 1
+      { start: '09:40', end: '10:15' }, // 2
+      { start: '10:20', end: '10:55' }, // 3
+      { start: '11:00', end: '11:35' }, // 4
+      { start: '11:40', end: '12:15' }, // 5
+      { start: '12:20', end: '12:55' }, // 6
+      { start: '13:05', end: '13:40' }, // 7
+      { start: '13:45', end: '14:20' }, // 8
+      { start: '14:25', end: '15:00' }, // 9
+      { start: '15:05', end: '15:40' }, // 10
+      { start: '15:45', end: '16:20' }, // 11
+      { start: '16:30', end: '17:05' } // 12
     ];
     for (var period = 1; period <= 12; period++) {
       var row = document.createElement('tr');
